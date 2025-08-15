@@ -123,8 +123,26 @@
   <data name="Borrar" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Confirmacion" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="ConfirmarBorrado" xml:space="preserve">
+    <value>Are you sure to delete the {0}: {1}?</value>
+  </data>
+  <data name="Crear" xml:space="preserve">
+    <value>Create</value>
+  </data>
   <data name="Editar" xml:space="preserve">
     <value>Edit</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="GuardarCambios" xml:space="preserve">
+    <value>Save Changes</value>
   </data>
   <data name="Imagen" xml:space="preserve">
     <value>Image</value>
@@ -143,6 +161,21 @@
   </data>
   <data name="Paises" xml:space="preserve">
     <value>Countries</value>
+  </data>
+  <data name="RegistroBorrado" xml:space="preserve">
+    <value>Record deleted succesfully</value>
+  </data>
+  <data name="RegistroGuardado" xml:space="preserve">
+    <value>Record saved succesfully</value>
+  </data>
+  <data name="Regresar" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="SalirSinGuardar" xml:space="preserve">
+    <value>Do you want to leave the page and lose your changes?</value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Yes</value>
   </data>
   <data name="Subtitulo" xml:space="preserve">
     <value>Soccer predictions app</value>

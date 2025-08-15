@@ -123,8 +123,26 @@
   <data name="Borrar" xml:space="preserve">
     <value>Borrar</value>
   </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Confirmacion" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="ConfirmarBorrado" xml:space="preserve">
+    <value>Estas seguro de borrar {0}: {1}?</value>
+  </data>
+  <data name="Crear" xml:space="preserve">
+    <value>Crear</value>
+  </data>
   <data name="Editar" xml:space="preserve">
     <value>Editar</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="GuardarCambios" xml:space="preserve">
+    <value>Guardar Cambios</value>
   </data>
   <data name="Imagen" xml:space="preserve">
     <value>Imagen</value>
@@ -143,6 +161,22 @@
   </data>
   <data name="Paises" xml:space="preserve">
     <value>Paises</value>
+  </data>
+  <data name="RegistroBorrado" xml:space="preserve">
+    <value>Registro borrado con exito </value>
+  </data>
+  <data name="RegistroGuardado" xml:space="preserve">
+    <value>Registro guardado con exito</value>
+  </data>
+  <data name="Regresar" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="SalirSinGuardar" xml:space="preserve">
+    <value>Desea abandonar la página y perder los cambios?</value>
+    <comment>Es cuando sales de una página sin guardar</comment>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Si</value>
   </data>
   <data name="Subtitulo" xml:space="preserve">
     <value>App de predicciones de futbol</value>

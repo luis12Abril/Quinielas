@@ -79,11 +79,65 @@ namespace Quinielas.Shared.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Cancelar.
+        /// </summary>
+        public static string Cancelar {
+            get {
+                return ResourceManager.GetString("Cancelar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Confirmación.
+        /// </summary>
+        public static string Confirmacion {
+            get {
+                return ResourceManager.GetString("Confirmacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Estas seguro de borrar {0}: {1}?.
+        /// </summary>
+        public static string ConfirmarBorrado {
+            get {
+                return ResourceManager.GetString("ConfirmarBorrado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Crear.
+        /// </summary>
+        public static string Crear {
+            get {
+                return ResourceManager.GetString("Crear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Editar.
         /// </summary>
         public static string Editar {
             get {
                 return ResourceManager.GetString("Editar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Error.
+        /// </summary>
+        public static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Guardar Cambios.
+        /// </summary>
+        public static string GuardarCambios {
+            get {
+                return ResourceManager.GetString("GuardarCambios", resourceCulture);
             }
         }
         
@@ -138,6 +192,51 @@ namespace Quinielas.Shared.Resources {
         public static string Paises {
             get {
                 return ResourceManager.GetString("Paises", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Registro borrado con exito .
+        /// </summary>
+        public static string RegistroBorrado {
+            get {
+                return ResourceManager.GetString("RegistroBorrado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Registro guardado con exito.
+        /// </summary>
+        public static string RegistroGuardado {
+            get {
+                return ResourceManager.GetString("RegistroGuardado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Regresar.
+        /// </summary>
+        public static string Regresar {
+            get {
+                return ResourceManager.GetString("Regresar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Desea abandonar la página y perder los cambios?.
+        /// </summary>
+        public static string SalirSinGuardar {
+            get {
+                return ResourceManager.GetString("SalirSinGuardar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Si.
+        /// </summary>
+        public static string Si {
+            get {
+                return ResourceManager.GetString("Si", resourceCulture);
             }
         }
         
