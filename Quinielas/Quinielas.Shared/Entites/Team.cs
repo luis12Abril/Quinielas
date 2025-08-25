@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 
 namespace Quinielas.Shared.Entites
 {
-    public class Country
+    public class Team
     {
-        public int id { get; set; }
+        public int Id { get; set; }
 
-        [MaxLength(100)] 
+        [MaxLength(100)]
         [Required]
         public string Name { get; set; } = null!;
-        public ICollection<Team>? Teams { get; set; } 
-        public int TeamsCount => Teams == null ? 0 : Teams.Count;
+        public string? Image {  get; set; }
+
+        public Country Country { get; set; } = null!;
+        public int CountryId { get; set; }  
     }
 }
